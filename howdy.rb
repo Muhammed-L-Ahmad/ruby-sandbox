@@ -6,7 +6,12 @@ pp my_string
 
 require "./goodbye.rb"
 
-1.ordinalize
-3.ordinalize
-53.ordinalize
-2999.ordinalize
+pp 1.ordinalize
+pp 3.ordinalize
+pp 53.ordinalize
+pp 2999.ordinalize
+
+pp "table".pluralize
+pp "tables".singularize
+pp "ruby".pluralize
+pp "rubies".singularize
