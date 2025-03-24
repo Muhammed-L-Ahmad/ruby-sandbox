@@ -6,8 +6,8 @@ pp my_string
 
 require "./goodbye.rb"
 
-pp "what's yer name, feller?"
+pp "what's your name?"
 
 their_name = gets.chomp
 
-pp "hello thar, " + their_name + " , you city slicker, you!"
+pp "hello there, " + their_name + "!"
