@@ -6,12 +6,8 @@ pp my_string
 
 require "./goodbye.rb"
 
-pp 1.ordinalize
-pp 3.ordinalize
-pp 53.ordinalize
-pp 2999.ordinalize
+pp "what's yer name, feller?"
 
-pp "table".pluralize
-pp "tables".singularize
-pp "ruby".pluralize
-pp "rubies".singularize
+their_name = gets.chomp
+
+pp "hello thar, " + their_name + " , you city slicker, you!"
